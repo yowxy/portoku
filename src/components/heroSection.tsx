@@ -61,7 +61,7 @@ const HeroSection = () => {
                         <div className="flex flex-col">
                             <div className="flex md:flex-row gap-5 flex-col">
                                 <div className="">
-                                        <img src="/src/assets/laravel.png" alt="laravel.png" className="mt-3    "/>
+                                        <img src="/assets/portoku/laravel.png" alt="laravel.png" className="mt-3    "/>
                                         <h1 className="text-2xl font-semibold mt-3.5">Laravel</h1>
                                         <p className="mt-2">
                                             Building modern and maintainable web <br/>
@@ -71,11 +71,11 @@ const HeroSection = () => {
                                             <p>
                                                 see more
                                             </p>
-                                            <img src="/src/assets/more.png" alt="" className="w-3 h-auto"/>
+                                            <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                                 </div>
                                 <div className="">
-                                        <img src="/src/assets/react.png" alt="react.png" className=""/>
+                                        <img src="/assets/portoku/react.png" alt="react.png" className=""/>
                                         <h1 className="text-2xl font-semibold mt-3.5">RectJS</h1>
                                         <p className="mt-2">
                                             Creating responsive and dynamic user <br/>
@@ -85,11 +85,11 @@ const HeroSection = () => {
                                             <p>
                                                 see more
                                             </p>
-                                            <img src="/src/assets/more.png" alt="" className="w-3 h-auto"/>
+                                            <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                                 </div>
                                 <div className="">
-                                        <img src="/src/assets/Tailwindcss.png" alt="tailwindcss.png" className=""/>
+                                        <img src="/assets/portoku/Tailwindcss.png" alt="tailwindcss.png" className=""/>
                                         <h1 className="text-2xl font-semibold mt-3.5">Tailwindcss</h1>
                                         <p className="mt-2">
                                         Designing beautiful, utility-first  <br/>
@@ -99,14 +99,14 @@ const HeroSection = () => {
                                             <p>
                                                 see more
                                             </p>
-                                            <img src="/src/assets/more.png" alt="" className="w-3 h-auto"/>
+                                            <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                                 </div>
                             </div>
 
                             <div className="flex md:flex-row flex-col">
                                  <div className="mt-2.5">
-                                    <img src="/src/assets/python.png" alt="tailwindcss.png" className=""/>
+                                    <img src="/assets/portoku/python.png" alt="python.png" className=""/>
                                      <h1 className="text-2xl font-semibold mt-3.5">Python</h1>
                                     <p className="mt-2">
                                        Building modern and maintainable web <br/>
@@ -116,11 +116,11 @@ const HeroSection = () => {
                                             <p>
                                                 see more
                                             </p>
-                                            <img src="/src/assets/more.png" alt="" className="w-3 h-auto"/>
+                                            <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                             </div>
                                  <div className="mt-2.5">
-                                    <img src="/src/assets/git.png" alt="tailwindcss.png" className=""/>
+                                    <img src="/assets/portoku/git.png" alt="git.png" className=""/>
                                      <h1 className="text-2xl font-semibold mt-3.5">Git</h1>
                                     <p className="mt-2">
                                        Building modern and maintainable web <br/>
@@ -130,11 +130,11 @@ const HeroSection = () => {
                                             <p>
                                                 see more
                                             </p>
-                                            <img src="/src/assets/more.png" alt="" className="w-3 h-auto"/>
+                                            <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                             </div>
                                  <div className="mt-2.5">
-                                    <img src="/src/assets/tensorFlow.png" alt="tailwindcss.png" className=""/>
+                                    <img src="/assets/portoku/tensorFlow.png" alt="tensorFlow.png" className=""/>
                                      <h1 className="text-2xl font-semibold mt-3.5">TensorFlow</h1>
                                     <p className="mt-2">
                                        Building modern and maintainable web <br/>
@@ -144,7 +144,7 @@ const HeroSection = () => {
                                             <p>
                                                 see more
                                             </p>
-                                            <img src="/src/assets/more.png" alt="" className="w-3 h-auto"/>
+                                            <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                             </div>
                             </div>
