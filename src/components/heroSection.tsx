@@ -15,7 +15,7 @@ const HeroSection = () => {
                 </div>
 
 
-                <div className="bg-[#F7F7F7] md:w-[1438] md:h-auto w-auto h-auto">
+                <div className="bg-[#F7F7F7] md:w-[1438px] md:h-auto w-auto h-auto">
                     <div className="md:text-left p-28">
                         <h1 className="font-bold  text-[48px]">Experience</h1>
                         <p className="font-light text-[20px] text-left">this is a part of my experience as a Jr.Software Developer</p>
