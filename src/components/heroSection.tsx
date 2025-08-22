@@ -169,7 +169,7 @@ const HeroSection = () => {
                             <div className="flex md:flex-row m-28 md:gap-14 flex-col gap-10 justify-center">
                                 {/* card */}
                                 <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
-                                    <img src="/src/assets/snapverseProject.png" alt="snapverse"/>
+                                    <img src="/assets/portoku/snapverseProject.png" alt="snapverse"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-4xl ">SNAPVERSE</h1>
                                     <p className="text-left text-[10px] mt-4">
@@ -183,7 +183,7 @@ const HeroSection = () => {
                                     </div>
                                 </div>    
                                 <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
-                                    <img src="/src/assets/bookingappProject.png" alt="snapverse"/>
+                                    <img src="/assets/portoku/bookingappProject.png" alt="bookingapp"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-[20px] ">BookingApp – Smart PlayStation Rental Management System</h1>
                                     <p className="text-left text-[10px] mt-4">
@@ -197,7 +197,7 @@ const HeroSection = () => {
                                     </div>
                                 </div>   
                                 <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
-                                    <img src="/src/assets/rentcarsProject.png" alt="snapverse"/>
+                                    <img src="/assets/portoku/rentcarsProject" alt="snapverse"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-[20px] ">Rentcars</h1>
                                     <p className="text-left text-[10px] mt-4">
@@ -213,7 +213,7 @@ const HeroSection = () => {
 
                             <div className="flex md:flex-row  gap-9 flex-col">
                                 <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
-                                    <img src="/src/assets/minefolioxProject.png" alt="snapverse"/>
+                                    <img src="/assets/portoku/minefolioxProject" alt="minefoliox"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-4xl ">MineFolioX</h1>
                                     <p className="text-left text-[10px] mt-4">
@@ -228,7 +228,7 @@ const HeroSection = () => {
                                     </div>
                                 </div> 
                                 <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
-                                    <img src="/src/assets/e-walletProject.png" alt="snapverse"/>
+                                    <img src="/assets/portoku/e-walletProject" alt="e-wallet"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-4xl ">E-Wallet</h1>
                                     <p className="text-left text-[10px] mt-4">
