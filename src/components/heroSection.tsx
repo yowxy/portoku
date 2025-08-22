@@ -9,7 +9,7 @@ const HeroSection = () => {
                 </h1>
                 <p className="font-normal mt-4">1+ years of experience in Software Developer, based in Surabaya</p>
                 <div className="flex justify-center m-3">
-                <img src="/src/assets/profile.png" alt="" className="md:w-[686px] md:h-[548px] mt-5  h-auto w-3xl  "/>
+                <img src="/public/assets/profile.png" alt="" className="md:w-[686px] md:h-[548px] mt-5  h-auto w-3xl  "/>
                 </div>
 
 
