@@ -197,7 +197,7 @@ const HeroSection = () => {
                                     </div>
                                 </div>   
                                 <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
-                                    <img src="/assets/portoku/rentcarsProject" alt="snapverse"/>
+                                    <img src="/assets/portoku/rentcarsProject.png" alt="snapverse"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-[20px] ">Rentcars</h1>
                                     <p className="text-left text-[10px] mt-4">
@@ -213,7 +213,7 @@ const HeroSection = () => {
 
                             <div className="flex md:flex-row  gap-9 flex-col">
                                 <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
-                                    <img src="/assets/portoku/minefolioxProject" alt="minefoliox"/>
+                                    <img src="/assets/portoku/minefolioxProject.png" alt="minefoliox"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-4xl ">MineFolioX</h1>
                                     <p className="text-left text-[10px] mt-4">
@@ -228,7 +228,7 @@ const HeroSection = () => {
                                     </div>
                                 </div> 
                                 <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
-                                    <img src="/assets/portoku/e-walletProject" alt="e-wallet"/>
+                                    <img src="/assets/portoku/e-walletProject.png" alt="e-wallet"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-4xl ">E-Wallet</h1>
                                     <p className="text-left text-[10px] mt-4">
