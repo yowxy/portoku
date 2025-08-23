@@ -3,6 +3,7 @@
   import NavbarPages from './components/navbar'
   import HeroSection from './components/heroSection'
   import FooterPage from './components/footer'
+
   import './index.css'
   
   createRoot(document.getElementById('root')!).render(
@@ -10,5 +11,7 @@
       <NavbarPages/>
       <HeroSection/>
       <FooterPage/>
+
+
     </StrictMode>,
   )

@@ -1,29 +1,41 @@
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HeroSection = () => {
+
+    useEffect(() => {
+    AOS.init({
+      duration: 1000, // durasi animasi
+      once: true, // animasi hanya jalan sekali
+    });
+  }, []);
+
     return (
         <>
             <div className="mt-16 text-center font-poppins">
-                <h1 className="md:text-5xl font-bold text-4xl">
+                <div data-aos="fade-up">
+                <h1 className="md:text-5xl font-bold text-4xl" >
                     Iklil is a Jr.Software Developer <br/>
                      Hire Me for Your <br/>
                      Next Project
                 </h1>
                 <p className="font-normal mt-4">1+ years of experience in Software Developer, based in Surabaya</p>
-                <div className="flex justify-center m-3">
+                </div>
+                <div className="flex justify-center m-3 " data-aos="fade-up">
                 <img src="/assets/portoku/profile.png" alt="profile" className="md:w-[686px] md:h-[548px] mt-5  h-auto w-3xl  "/>
                 </div>
 
 
                 <div className="bg-[#F7F7F7] w-auto md:h-auto  h-auto">
                     <div className="md:text-left p-28">
-                        <h1 className="font-bold  text-[48px]">Experience</h1>
-                        <p className="font-light text-[20px] text-left">this is a part of my experience as a Jr.Software Developer</p>
+                        <h1 className="font-bold  text-[48px]"  data-aos="fade-right">Experience</h1>
+                        <p className="font-light text-[20px] text-left"  data-aos="fade-right">this is a part of my experience as a Jr.Software Developer</p>
 
 
                     <div className="flex md:flex-row justify-between flex-col">
-                    <div className="text-left">
-                        <h1 className="font-bold text-4xl mt-10">Bootcamp LKS 2024</h1>
+                    <div className="text-left"  data-aos="fade-right">
+                        <h1 className="font-bold text-4xl mt-10" >Bootcamp LKS 2024</h1>
                         <p className="font-light text-[20px]">PT. Universal Big Data - Internship</p>
                         <p className="font-light">Feb 2024 - Apr 2024</p>
                         <p className="mt-3.5">
@@ -33,7 +45,7 @@ const HeroSection = () => {
                              expertise in software development. <br/>
                         </p>
                     </div>
-                    <div className="text-left">
+                    <div className="text-left"  data-aos="fade-right">
                         <h1 className="font-bold text-4xl mt-10">Jr.Software Developer</h1>
                         <p className="font-light text-[20px]">PT. Encrypt Digital Solution - Freelance</p>
                         <p className="font-light">Des 2024 - Now</p>
@@ -49,7 +61,7 @@ const HeroSection = () => {
 
                     </div>
                     <div className="text-left mt-[138px] flex md:flex-row justify-between  flex-col">
-                        <div className="flex flex-col">
+                        <div className="flex flex-col"  data-aos="fade-up">
                          <h1 className="font-semibold text-4xl">Junior Software  <br/>
                             Developer
                         </h1>
@@ -60,7 +72,7 @@ const HeroSection = () => {
 
                         <div className="flex flex-col">
                             <div className="flex md:flex-row gap-5 flex-col">
-                                <div className="">
+                                <div className=""  data-aos="fade-up" data-aos-duration="900">
                                         <img src="/assets/portoku/laravel.png" alt="laravel.png" className="mt-3    "/>
                                         <h1 className="text-2xl font-semibold mt-3.5">Laravel</h1>
                                         <p className="mt-2">
@@ -74,7 +86,7 @@ const HeroSection = () => {
                                             <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                                 </div>
-                                <div className="">
+                                <div className="" data-aos="fade-up" data-aos-duration="900">
                                         <img src="/assets/portoku/react.png" alt="react.png" className=""/>
                                         <h1 className="text-2xl font-semibold mt-3.5">RectJS</h1>
                                         <p className="mt-2">
@@ -88,7 +100,7 @@ const HeroSection = () => {
                                             <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                                 </div>
-                                <div className="">
+                                <div className="" data-aos="fade-up" data-aos-duration="900">
                                         <img src="/assets/portoku/Tailwindcss.png" alt="tailwindcss.png" className=""/>
                                         <h1 className="text-2xl font-semibold mt-3.5">Tailwindcss</h1>
                                         <p className="mt-2">
@@ -105,7 +117,7 @@ const HeroSection = () => {
                             </div>
 
                             <div className="flex md:flex-row flex-col">
-                                 <div className="mt-2.5">
+                                 <div className="mt-2.5" data-aos="fade-up" data-aos-duration="900">
                                     <img src="/assets/portoku/python.png" alt="python.png" className=""/>
                                      <h1 className="text-2xl font-semibold mt-3.5">Python</h1>
                                     <p className="mt-2">
@@ -119,7 +131,7 @@ const HeroSection = () => {
                                             <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                             </div>
-                                 <div className="mt-2.5">
+                                 <div className="mt-2.5" data-aos="fade-up" data-aos-duration="900">
                                     <img src="/assets/portoku/git.png" alt="git.png" className=""/>
                                      <h1 className="text-2xl font-semibold mt-3.5">Git</h1>
                                     <p className="mt-2">
@@ -133,7 +145,7 @@ const HeroSection = () => {
                                             <img src="/assets/portoku/more.png" alt="" className="w-3 h-auto"/>
                                         </div>
                             </div>
-                                 <div className="mt-2.5">
+                                 <div className="mt-2.5" data-aos="fade-up" data-aos-duration="900">
                                     <img src="/assets/portoku/tensorFlow.png" alt="tensorFlow.png" className=""/>
                                      <h1 className="text-2xl font-semibold mt-3.5">TensorFlow</h1>
                                     <p className="mt-2">
@@ -161,14 +173,14 @@ const HeroSection = () => {
                     {/* projek */}
                 <div className="container mt-32 mb-[239px]">
                     <div className="">
-                            <h1 className="font-bold text-5xl">Project</h1>
-                            <p className="font-light text-[20px] mt-1">Want to Build Something Like This?</p>
+                            <h1 className="font-bold text-5xl" data-aos="fade-up" data-aos-duration="900">Project</h1>
+                            <p className="font-light text-[20px] mt-1" data-aos="fade-up" data-aos-duration="780">Want to Build Something Like This?</p>
                     </div>
 
                     <div className="flex flex-col justify-center items-center">
-                            <div className="flex md:flex-row m-28 md:gap-14 flex-col gap-10 justify-center">
+                            <div className="flex md:flex-row m-28 md:gap-14 flex-col gap-10 justify-center" >
                                 {/* card */}
-                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
+                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl" data-aos="fade-up" data-aos-duration="800">
                                     <img src="/assets/portoku/snapverseProject.png" alt="snapverse"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-4xl ">SNAPVERSE</h1>
@@ -182,7 +194,7 @@ const HeroSection = () => {
                                     </p>
                                     </div>
                                 </div>    
-                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
+                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl" data-aos="fade-up" data-aos-duration="800">
                                     <img src="/assets/portoku/bookingappProject.png" alt="bookingapp"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-[20px] ">BookingApp – Smart PlayStation Rental Management System</h1>
@@ -196,7 +208,7 @@ const HeroSection = () => {
                                     </p>
                                     </div>
                                 </div>   
-                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
+                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl" data-aos="fade-up" data-aos-duration="800">
                                     <img src="/assets/portoku/rentcarsProject.png" alt="snapverse"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-[20px] ">Rentcars</h1>
@@ -212,7 +224,7 @@ const HeroSection = () => {
                             </div>
 
                             <div className="flex md:flex-row  gap-9 flex-col">
-                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
+                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl" data-aos="fade-up" data-aos-duration="800">
                                     <img src="/assets/portoku/minefolioxProject.png" alt="minefoliox"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-4xl ">MineFolioX</h1>
@@ -227,7 +239,7 @@ const HeroSection = () => {
                                     </p>
                                     </div>
                                 </div> 
-                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl">
+                                <div className="w-[368px] h-[414px] bg-[#D9D9D9] rounded-2xl" data-aos="fade-up" data-aos-duration="800">
                                     <img src="/assets/portoku/e-walletProject.png" alt="e-wallet"/>
                                     <div className="m-2">
                                     <h1 className="text-left font-semibold text-4xl ">E-Wallet</h1>

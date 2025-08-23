@@ -5,7 +5,7 @@ const NavbarPages = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#F2F2F2] shadow-md w-full max-w-[577px] m-auto mt-11 rounded-[37px] overflow-hidden">
+    <nav className="bg-[#F2F2F2] shadow-md w-full max-w-[577px] m-auto mt-11 rounded-[37px] overflow-hidden" data-aos="fade-down">
       {/* Header bar */}
       <div className="h-[74px] flex items-center justify-between px-6 poppins">
         {/* Logo */}
